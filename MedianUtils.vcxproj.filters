@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Helpers.cpp" />
+    <ClCompile Include="D2Handlers.cpp">
+      <Filter>Diablo II</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Helpers.cpp">
+      <Filter>Diablo II</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Intercepts.cpp">
+      <Filter>Diablo II</Filter>
+    </ClCompile>
+    <ClCompile Include="D2NetHandlers.cpp">
+      <Filter>Diablo II</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianUtils.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="Offset.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helpers.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Constants.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Handlers.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Helpers.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Intercepts.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="D2NetHandlers.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Ptrs.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Structs.h">
+      <Filter>Diablo II</Filter>
+    </ClInclude>
+    <ClInclude Include="MedianUtils.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="Patch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Offset.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DefaultConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{bb0f7ffd-f65b-4828-8c23-19fc65bf3179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Diablo II">
+      <UniqueIdentifier>{7a4f9449-cb27-48db-a82b-afd3f35f8078}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
